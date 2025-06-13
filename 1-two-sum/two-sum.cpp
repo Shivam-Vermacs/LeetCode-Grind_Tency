@@ -11,6 +11,7 @@ public:
                 {
                     index.push_back(i);
                     index.push_back(j);
+                    break;
                 }
             }
         }
