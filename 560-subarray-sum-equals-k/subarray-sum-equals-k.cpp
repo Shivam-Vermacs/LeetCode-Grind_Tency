@@ -1,7 +1,7 @@
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
-        long long n=nums.size();
+        int n=nums.size();
         //brute force
 
     //     long long longest=0,s=0;
@@ -24,7 +24,7 @@ public:
 
 
     //Optimized Brute Force
-         long long longest=0,s=0;
+         int longest=0,s=0;
         for(int i=0;i<n;i++)
         {s=0;
             for(int j=i;j<n;j++)
