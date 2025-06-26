@@ -23,7 +23,7 @@ public:
     // }
 
 
-    //Optimized Brute Force
+    // Optimized Brute Force
          int longest=0,s=0;
         for(int i=0;i<n;i++)
         {s=0;
@@ -36,7 +36,7 @@ public:
             }
         }
         return longest;
-        
+       
     }
 
 
